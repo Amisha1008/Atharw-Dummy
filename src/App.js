@@ -1,9 +1,13 @@
-function App() {
+import React from 'react'
+import Navbar2 from "./Pages/Navbar/Navbar"
+import Blog from "./Pages/Blog/Blog"
+
+export default function App() {
   return (
     <div>
-      App
-    </div>
-  );
+   
+       <Navbar2/> 
+       <Blog/> 
+      </div>
+  )
 }
-
-export default App;
